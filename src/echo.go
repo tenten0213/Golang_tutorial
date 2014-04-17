@@ -1,5 +1,8 @@
 package main
 
+/*
+丸括弧で同じ種類の宣言をひとまとめに出来る
+ */
 import (
 	"os"
 	"flag" //コマンドラインオプションのパーサ
@@ -14,7 +17,15 @@ const (
 
 func main() {
 	flag.Parse() //パラメータリストを調べてflagに設定
-	var s string = ""
+	/*
+	var 変数名 型 = 初期値
+	初期値から型がわかるので
+	var s = ""
+	や、もっと短く
+	s := """
+	なんかもできます
+	*/
+	s := ""
 	for i := 0; i < flag.NArg(); i++ {
 		if i > 0 {
 			s += Space
