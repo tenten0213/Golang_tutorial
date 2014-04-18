@@ -32,4 +32,7 @@ $ echo.exe hoge
 hoge
 ```
 
+## Link
 
+* [Goプログラミング言語のチュートリアル - golang.jp](http://golang.jp/go_tutorial)
+* [Effective Go — プログラミング言語 Go ドキュメント v0.1 documentation](http://go.shibu.jp/effective_go.html)
